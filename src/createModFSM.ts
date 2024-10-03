@@ -24,7 +24,7 @@ export const createModFSM = ({
   // F ⊆ Q is the set of accepting/final states
   validateFinalStates(finalStates, states);
 
-  // return transition function with an input string
+  // return transition function which has a parameter of input string
   return (input: string) => {
     const finalState = handleTransitions(
       input,

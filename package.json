@@ -4,12 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
     "test": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "test:ui": "vitest --ui"
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",

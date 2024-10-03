@@ -26,5 +26,6 @@ export const handleTransitions = (
     currentState = nextState;
   });
 
+  // it is the final/accepting state
   return currentState;
 };
